@@ -1,3 +1,5 @@
+Local `.env` is committed encrypted with git-crypt. On a new machine, install git-crypt and run `git-crypt unlock ~/.config/git-crypt/nexow.ai/nexow-gtn-auth.key` once. The working tree stays plaintext; the blob in git is ciphertext. Plaintext `.env.*` overrides stay gitignored, and the key file is never committed.
+
 * AUTHENTICATE  
 * Authenticate
 

@@ -1,7 +1,6 @@
 # Env and secrets
-.env
-.env.local
-.env.*.local
+# .env is tracked and encrypted with git-crypt.
+.env.*
 !.env.example
 
 # Generated key files (never commit)
